@@ -1,4 +1,4 @@
-## Calculator - calculation app
+## Calculator - calculating app
 
 Simple calculator created with Javascript
 

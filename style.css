@@ -1,0 +1,73 @@
+*{
+background:black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+margin: 0;
+padding: 0;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25pt;
+    margin: 2px;
+    background:#1b1b1b;
+    cursor: pointer;
+    color: white;
+    border-radius: 25px;
+    border-width: 0;
+}
+
+
+
+.operator{
+    width: 50px;
+    height: 50px;
+    font-size: 25pt;
+    margin: 2px;
+    background:#b1a718;
+    cursor: pointer;
+    color: white;
+    border-radius: 50px;
+    border-color: tomato;
+    border-width: 0;
+}
+
+.button:active,.operator:active{
+    font-size: 15px;
+}
+
+.button:focus,.operator:focus{
+    outline:0;
+}
+
+.textview{
+    width: 205px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    background: white;
+    color:#607d8b;
+    border-radius: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-color: brown;
+    text-align: right;
+    border-width: 0;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+
+.heading{
+    text-align: center;
+    margin-top:15px;
+    border: none;
+}
+
+
